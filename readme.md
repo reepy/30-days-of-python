@@ -104,7 +104,7 @@ This challenge is designed for beginners and professionals who want to learn pyt
 
 This challenge is easy to read, written in conversational English, engaging, motivating and at the same time, it is very demanding. You need to allocate much time to finish this challenge. If you are a visual learner, you may get the video lesson on <a href="https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw"> Washera</a> YouTube channel. You may start from [Python for Absolute Beginners video](https://youtu.be/OCCWZheOesI). Subscribe the channel, comment and ask questions on YouTube vidoes and be proactive, the author will eventually notice you.
 
-The author likes to hear your opinion about the challenge, share the author by expressing your thoughts about the 30DaysOfPython challenge. You can leave your testimonial on this [link](https://testimonial-vdzd.onrender.com/)
+The author likes to hear your opinion about the challenge, share the author by expressing your thoughts about the 30DaysOfPython challenge. You can [leave your testimonial](https://testimonial-vdzd.onrender.com/).
 
 ## Why Python ?
 
@@ -153,7 +153,7 @@ Let us write our very first script on the Python scripting shell.
 ![Python script on Python shell](./images/adding_on_python_shell.png)
 
 Well done, you wrote your first Python script on Python interactive shell. How do we close the Python interactive shell?
-To close the shell, next to this symbol >> write **exit()** command and press Enter.
+To close the shell, next to this symbol **>>** write **exit()** command and press Enter.
 
 ![Exit from python shell](./images/exit_from_shell.png)
 
@@ -213,7 +213,7 @@ The Python interactive shell is good to try and test small script codes but it w
 [![Visual Studio Code](./images/vscode.png)](https://code.visualstudio.com/)
 
 If you installed visual studio code, let us see how to use it.
-If you prefer a video, you can follow this Visual Studio Code for Python [Video tutorial](https://www.youtube.com/watch?v=bn7Cx4z-vSo)
+If you prefer a video, you can follow this Visual Studio Code for Python [video tutorial](https://www.youtube.com/watch?v=bn7Cx4z-vSo)
 
 #### How to use visual studio code
 
@@ -254,7 +254,7 @@ An indentation is a white space in a text. Indentation in many languages is used
 Comments are very important to make the code more readable and to leave remarks in our code. Python does not run comment parts of our code.
 Any text starting with hash(#) in Python is a comment.
 
-**Example: Single Line Comment**
+#### Example: Single Line Comment
 
 ```shell
     # This is the first comment
@@ -262,7 +262,7 @@ Any text starting with hash(#) in Python is a comment.
     # Python is eating the world
 ```
 
-**Example: Multiline Comment**
+#### Example: Multiline Comment
 
 Triple quote can be used for multiline comment if it is not assigned to a variable
 
@@ -293,7 +293,7 @@ In Python there are several types of data types. Let us get started with the mos
 
 A collection of one or more characters under a single or double quote. If a string is more than one sentence then we use a triple quote.
 
-**Example:**
+##### Example
 
 ```py
 'Asabeneh'
@@ -307,7 +307,7 @@ A collection of one or more characters under a single or double quote. If a stri
 
 A boolean data type is either a True or False value. T and F should be always uppercase.
 
-**Example:**
+##### Example
 
 ```python
     True  #  Is the light on? If it is on, then the value is True
@@ -318,7 +318,7 @@ A boolean data type is either a True or False value. T and F should be always up
 
 Python list is an ordered collection which allows to store different data type items. A list is similar to an array in JavaScript.
 
-**Example:**
+##### Example
 
 ```py
 [0, 1, 2, 3, 4, 5]  # all are the same data types - a list of numbers
@@ -331,7 +331,7 @@ Python list is an ordered collection which allows to store different data type i
 
 A Python dictionary object is an unordered collection of data in a key value pair format.
 
-**Example:**
+##### Example
 
 ```py
 {
@@ -348,7 +348,7 @@ A Python dictionary object is an unordered collection of data in a key value pai
 
 A tuple is an ordered collection of different data types like list but tuples can not be modified once they are created. They are immutable.
 
-**Example:**
+##### Example
 
 ```py
 ('Asabeneh', 'Pawel', 'Brook', 'Abraham', 'Lidiya') # Names
@@ -364,7 +364,7 @@ A set is a collection of data types similar to list and tuple. Unlike list and t
 
 In later sections, we will go in detail about each and every Python data type.
 
-**Example:**
+##### Example
 
 ```py
 {2, 4, 3, 5}
@@ -375,7 +375,8 @@ In later sections, we will go in detail about each and every Python data type.
 
 To check the data type of certain data/variable we use the **type** function.
 
-**Example:**
+##### Example
+
 ```ph
 type(10)
 type(3.14)
@@ -395,7 +396,7 @@ First open your project folder, 30DaysOfPython. If you don't have this folder, c
 
 The Python interactive shell was printing without using **print** but on visual studio code to see our result we should use a built in function _print(). The _print()_ built-in function takes one or more arguments as follows _print('arument1', 'argument2', 'argument3')_. See the examples below.
 
-**Example:**
+#### Example
 
 The file name is helloworld.py
 
