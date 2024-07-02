@@ -115,8 +115,8 @@ Python is used by various industries and companies (including Google). It has be
 
 ### Installing Python
 
-To run a python script you need to install python. Let's [download](https://www.python.org/) python.
-If your are a windows user. Click the button encircled in red.
+To run a python script you need to install python. Let's [download python](https://www.python.org/).
+If you are a windows user. Click the button encircled in red.
 
 [![installing on Windows](./images/installing_on_windows.png)](https://www.python.org/)
 
@@ -147,25 +147,25 @@ python
 
 ![Python Scripting Shell](./images/opening_python_shell.png)
 
-The Python interactive shell is opened and it is waiting for you to write Python code(Python script). You will write your Python script next to this symbol >>> and then click Enter.
+The Python interactive shell is opened and it is waiting for you to write Python code(Python script). You will write your Python script next to this symbol **>>>** and then click Enter.
 Let us write our very first script on the Python scripting shell.
 
 ![Python script on Python shell](./images/adding_on_python_shell.png)
 
-Well done, you wrote your first Python script on Python interactive shell. How do we close the Python interactive shell ?
+Well done, you wrote your first Python script on Python interactive shell. How do we close the Python interactive shell?
 To close the shell, next to this symbol >> write **exit()** command and press Enter.
 
 ![Exit from python shell](./images/exit_from_shell.png)
 
 Now, you know how to open the Python interactive shell and how to exit from it.
 
-Python will give you results if you write scripts that Python understands, if not it returns errors. Let's make a deliberate mistake and see what Python will return.
+Python will give you results if you write scripts that Python understands, if not it returns errors. Let us make a deliberate mistake and see what Python will return.
 
 ![Invalid Syntax Error](./images/invalid_syntax_error.png)
 
-As you can see from the returned error, Python is so clever that it knows the mistake we made and which was _Syntax Error: invalid syntax_. Using x as multiplication in Python is a syntax error because (x) is not a valid syntax in Python. Instead of (**x**) we use asterisk (*) for multiplication. The returned error clearly shows what to fix.
+As you can see from the returned error, Python is so clever that it knows the mistake we made and which was _Syntax Error: invalid syntax_. Using **x** as multiplication in Python is a syntax error because (**x**) is not a valid syntax in Python. Instead of (**x**) we use asterisk (**\***) for multiplication. The returned error clearly shows what to fix.
 
-The process of identifying and removing errors from a program is called _debugging_. Let us debug it by putting * in place of **x**.
+The process of identifying and removing errors from a program is called _debugging_. Let us debug it by putting **\*** in place of **x**.
 
 ![Fixing Syntax Error](./images/fixing_syntax_error.png)
 
@@ -208,7 +208,7 @@ Before we move on to the next section, let us practice more on the Python intera
 
 ### Installing Visual Studio Code
 
-The Python interactive shell is good to try and test small script codes but it will not be for a big project. In real work environment, developers use different code editors to write codes. In this 30 days of Python programming challenge we will use visual studio code. Visual studio code is a very popular open source text editor. I am a fan of vscode and I would recommend to [download](https://code.visualstudio.com/) visual studio code, but if you are in favor of other editors, feel free to follow with what you have.
+The Python interactive shell is good to try and test small script codes but it will not be for a big project. In real work environment, developers use different code editors to write codes. In this 30 days of Python programming challenge we will use Visual Studio Code (vscode). Visual Studio Code is a very popular open source text editor. I am a fan of vscode and I would recommend you [download Visual Studio Code](https://code.visualstudio.com/), but if you are in favor of other editors, feel free to follow with what you have.
 
 [![Visual Studio Code](./images/vscode.png)](https://code.visualstudio.com/)
 
@@ -241,11 +241,11 @@ Congratulations, you have finished setting up the development environment. Let u
 
 ### Python Syntax
 
-A Python script can be written in Python interactive shell or in the code editor. A Python file has an extension .py.
+A Python script can be written in Python interactive shell or in the code editor. A Python file has an extension `.py`.
 
 ### Python Indentation
 
-An indentation is a white space in a text. Indentation in many languages is used to increase code readability, however Python uses indentation to create block of codes. In other programming languages curly brackets are used to create blocks of codes instead of indentation. One of the common bugs when writing python code is wrong indentation.
+An indentation is a white space in a text. Indentation in many languages is used to increase code readability, however Python uses indentation to create block of codes. In other programming languages curly brackets are used to create blocks of codes instead of indentation. One of the common bugs when writing python code is the wrong indentation.
 
 ![Indentation Error](./images/indentation.png)
 
@@ -373,13 +373,25 @@ In later sections, we will go in detail about each and every Python data type.
 
 ### Checking Data types
 
-To check the data type of certain data/variable we use the **type** function. In the following terminal you will see different python data types:
+To check the data type of certain data/variable we use the **type** function.
+
+**Example:**
+```ph
+type(10)
+type(3.14)
+type(1 +3j)
+type('Asabeneh')
+type([1, 2,3])
+type({'name':'Asab'})
+type((2,3,4,5))
+type({9.8, 3.14, 2.7})
+```
 
 ![Checking Data types](./images/checking_data_types.png)
 
 ### Python File
 
-First open your project folder, 30DaysOfPython. If you don't have this folder, create a folder name called 30DaysOfPython. Inside this folder, create a file called helloworld.py. Now, let's do what we did on python interactive shell using visual studio code.
+First open your project folder, 30DaysOfPython. If you don't have this folder, create a folder name called 30DaysOfPython. Inside this folder, create a file called helloworld.py. Now, let us do what we did on python interactive shell using visual studio code.
 
 The Python interactive shell was printing without using **print** but on visual studio code to see our result we should use a built in function _print(). The _print()_ built-in function takes one or more arguments as follows _print('arument1', 'argument2', 'argument3')_. See the examples below.
 
